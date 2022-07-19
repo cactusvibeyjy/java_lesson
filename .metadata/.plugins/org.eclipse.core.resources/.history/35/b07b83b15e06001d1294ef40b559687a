@@ -1,0 +1,9 @@
+package 조건문;
+
+public class 변수범위 {
+	public static void main(String[] args) {
+		int calue = 0;
+		System.out.println(value);
+	}
+
+}

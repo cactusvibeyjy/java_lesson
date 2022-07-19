@@ -1,0 +1,16 @@
+package integerVariable;
+
+public class 문자리터럴 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char ch = 'a'; //한 따옴표를 사용한다
+		char c = '\u0061';
+		System.out.println(ch);
+		
+		System.out.println(c);
+		System.out.println("\" is a symbol");
+		
+	}
+
+}

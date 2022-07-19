@@ -1,0 +1,9 @@
+package 메소드;
+
+public class Person {
+
+	String name;
+	int age;
+
+
+}

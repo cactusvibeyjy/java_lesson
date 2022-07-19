@@ -1,0 +1,20 @@
+package examples;
+
+import java.util.Scanner;
+
+public class Example7 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner = new Scanner(System.in);
+		int a = 24;
+		int b = 6;
+		int 곱하기 = a*b;
+		int 나누기 = a/6;
+		int 나머지 = a%b;
+		//System.out.println(rest);
+		System.out.printf("곱하기: %d x %d = %d\n", a, b);
+		
+	}
+
+}

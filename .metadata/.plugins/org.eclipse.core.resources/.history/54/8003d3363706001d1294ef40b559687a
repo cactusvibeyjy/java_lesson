@@ -1,0 +1,11 @@
+package application;
+
+public class 문자열메소드2 {
+public static void main(String[] args) {
+	//substring(시작 인덱스 번호)
+	String text = "apple";
+	String newText = text.substring(1);
+	System.out.println(newText);
+	newText = text.substring(1,3);
+}
+}

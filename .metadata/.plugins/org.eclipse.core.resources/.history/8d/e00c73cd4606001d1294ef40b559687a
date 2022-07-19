@@ -1,0 +1,9 @@
+package 조건문;
+
+public class 예제 {
+	public static void main(String[] args) {
+		String 1 = "헬로우";
+		String 2 = "안녕?";
+		System.out.println("1.프린트" +String1);
+	}
+}

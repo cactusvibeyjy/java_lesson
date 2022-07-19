@@ -1,0 +1,29 @@
+package 조건문;
+
+import java.util.Scanner;
+
+public class 예제 {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int a = scanner.nextInt();
+		int b = scanner.nextInt();
+		scanner.close();
+		String text1 = "메뉴";
+		String text2 = "====";	
+		String text3 = "'헬로우'";
+		String text4 = "'안녕 ?'";
+		System.out.println(text1);
+		System.out.println(text2);
+		System.out.println("1. 프린트 " +text3);
+		System.out.println("2. 프린트 " +text4);
+		System.out.println("프로그램 종료");
+		
+		System.out.printf("옵션을 선택 >");
+		if (a >= 10000) {
+			System.out.println("이스터에그를 발견했습니다.");
+		}
+		
+		
+		
+	}
+}

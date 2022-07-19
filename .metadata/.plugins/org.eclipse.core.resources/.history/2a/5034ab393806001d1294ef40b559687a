@@ -1,0 +1,17 @@
+package application;
+
+public class ¸®ÅÍ·²°úNEW {
+public static void main(String[] args) {
+	//¸®ÅÍ·² ¹æ½Ä vs newÅ°¿öµå
+	String new1 new String("Çï·Î¿ì");
+	String new2 new String("Çï·Î¿ì");
+	String literal1 = "Çï·Î¿ì";
+	String literal2 = "Çï·Î¿ì";
+	String new3 = literal1;
+	System.out.println(new1);
+	System.out.println(new2);
+	System.out.println(new3);
+	System.out.println(literal1);
+	System.out.println(literal2);
+}
+}

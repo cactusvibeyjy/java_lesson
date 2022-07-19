@@ -1,0 +1,10 @@
+package 조건문;
+
+public class 예제 {
+	public static void main(String[] args) {
+		String text1 = "헬로우";
+		String text2 = "안녕?";
+		System.out.println("1. 프린트 " +text1);
+		System.out.println("2. 프린트 " +text2);
+	}
+}

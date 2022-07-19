@@ -1,0 +1,9 @@
+package application;
+
+public class While반복문 {
+public static void main(String[] args) {
+	while(true) {
+		System.out.println("헬로우 월드!");
+	}
+}
+}

@@ -1,0 +1,10 @@
+package application;
+
+public class 문자열메소드1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
