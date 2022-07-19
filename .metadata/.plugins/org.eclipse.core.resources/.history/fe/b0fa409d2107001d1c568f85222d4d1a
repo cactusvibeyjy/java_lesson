@@ -1,0 +1,8 @@
+package 메소드리턴;
+
+public class 리턴밸류 {
+		String getCat() {
+		return "고양이";
+	}
+
+}

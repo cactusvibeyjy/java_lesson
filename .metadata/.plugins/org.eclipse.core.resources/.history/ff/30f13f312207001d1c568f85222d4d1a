@@ -1,0 +1,7 @@
+package 매개변수;
+
+public class Calculator {
+	int square(int x) {
+		return x*x;
+	}
+}

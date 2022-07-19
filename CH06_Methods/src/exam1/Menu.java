@@ -1,6 +1,13 @@
 package exam1;
 
 public class Menu {
-	String menu;
-	int i;
+	String[] options = {"아이템보기", "아이템추가", "아이템삭제", "종료"};
+	void display() {
+		System.out.println("메뉴를 선택: ");
+		
+		for (int i = 0; i <options.length; i++) {
+			System.out.printf("%d. %s \n", i, options[i]);
+		}
+		
+	}
 }
