@@ -1,7 +1,0 @@
-package 메소드리턴;
-
-public class App {
-	ReturnValue rv = new ReturnValue();
-	
-
-}

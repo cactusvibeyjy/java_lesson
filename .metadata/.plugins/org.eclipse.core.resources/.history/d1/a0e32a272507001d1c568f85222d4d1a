@@ -1,9 +1,0 @@
-package getterSetter;
-
-public class Person {
-	private String name;
-	private int age;
-	//get, set 메소드로 인스턴스 변수에 접근
-	
-
-}

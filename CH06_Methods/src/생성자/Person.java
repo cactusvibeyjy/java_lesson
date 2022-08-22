@@ -6,12 +6,18 @@ public class Person {
 	//기본 생성자는 생략 가능
 	public Person() {
 		// 기본 생성자는 public 클래스명으로 시작
-		System.out.println("한 사람을 생성!");
+		name = "이름미상";
+		//String height = "Not yet reported";
+		System.out.println("Person 객체를 생성");
+	}
+	public Person (String name) {
+		System.out.println("Person 객체를 생성");
 	}
 	public Person(String name, double height) {
 		//super();
 		this.name = name;
 		this.height = height;
+		System.out.println("Person 객체를 생성");
 	}
 	
 	public String getName() {
