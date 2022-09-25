@@ -1,0 +1,154 @@
+a{
+    font-weight: 600;
+    color: darkgray;
+}
+
+.boardContainer{
+    padding: 0 0 0 0;
+    margin : 0 auto;
+    margin-bottom : 100px;
+    width: 900px;
+    padding: 20px;
+    
+}
+
+.replyContainer{
+    padding: 0 0 0 0;
+    margin : 0 auto;
+    width: 900px;
+    padding: 20px;
+    
+}
+
+.nav-item{
+
+    font-size: 15px;
+}
+
+fieldset{
+    margin: 0 auto;
+    clear: both;
+}
+
+.btn-dark{
+    height: 40px;
+    
+}
+
+
+.container {
+    padding: 200px 0 0 0;
+    margin : 0 auto;
+    width: 900px;  
+}
+
+.col-form-label {
+    font-size: 16px;
+}
+
+
+.buttonbox{
+    margin-top: 50px;
+    width: 900px;
+    height: 150px;
+    clear: both;
+}
+
+.col-sm-10 input { 
+    vertical-align:-2px; 
+}
+
+.table-active{
+    vertical-align : middle;
+    text-align: center;
+}
+
+.table td{
+    margin-top: 0px;
+    vertical-align : middle;
+    text-align: center;
+}
+
+.no {
+	width: 8%;
+}
+.category{
+	width: 15%;
+}
+.boardTitle{
+	width: 35%;
+}
+.writer{
+	width: 20%;
+}
+.writeDate{
+	width: 12%;
+}
+.hit{
+	width: 10%;
+}
+.registButton{
+	margin-top: 20px;
+	margin-right: 20px;
+	float: right;
+}
+.goToListButton{
+	margin: 20px;
+	float: right;
+}
+.writeReplyButton{
+	margin: 20px;
+	float: right;
+}
+.textarea{
+	resize: none;
+}
+.boardTitleInList{
+	cursor: pointer;
+}
+.content{
+	width: 80%;
+}
+.replier{
+	margin: 5px;
+	padding: 5px;
+}
+.comment{
+	padding: 5px;
+	margin: 10px;
+}
+.btn-category{
+	float: right;
+}
+.btn-delete{
+	margin-left: 20px;
+	margin-top: 20px;
+	float: left;
+}
+.btn-modify{
+	margin-left: 20px;
+	margin-top: 20px;
+	float: left;
+}
+.completeModify{
+	margin-left: 20px;
+	margin-top: 20px;
+	float: left;
+}
+.cancelModify{
+	margin-left: 20px;
+	margin-top: 20px;
+	float: left;
+}
+.pageNum{
+	margin-top: 20px;
+	float: left;
+}
+.nextPageNum{
+	margin-top: 20px;
+	float: left;
+}
+.previousPageNum{
+	margin-top: 20px;
+	float: left;
+}

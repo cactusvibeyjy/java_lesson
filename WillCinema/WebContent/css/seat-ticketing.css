@@ -1,0 +1,287 @@
+@CHARSET "UTF-8";
+/* -------- 글씨체 -------- */
+@font-face {
+	font-family: 'NanumGothic';
+	src: url('../font/NanumGothic.ttf') format('truetype');
+}
+/* -------- 전체에 적용할 속성들 --------*/
+.bgColor{
+	background-color: #ffffff;
+}
+
+.bgColor .ticketheader{
+	padding-top: 50px;
+	width: 1200px;
+	margin: 0px auto 50px;
+	text-align: left;
+}
+
+.loginField .seatForm #kpay{
+	padding: 20px;
+	margin: 0px auto 20px;
+	text-align: center;
+}
+
+#kpay h3{
+	margin: 20px;
+}
+
+#kpay li{
+	margin: 50px;
+}
+
+#kpay {
+	
+}
+
+#kpay .payButton{
+	float: none;
+}
+
+#kpay .prevButton{
+	float: none;
+}
+
+.selectPeopleNum{
+	height: 50px;
+	padding-top: 10px;
+	margin-left: 10px; 
+}
+
+.selectPeopleNum span{
+	margin: 0px 10px;
+}
+.selectPeopleNum >div{
+	float: left;
+	margin: 0 10px;
+}
+.selectPeopleNum em{
+	line-height: 50px;
+	font-size: 12px;
+	float: right;
+	color: #727272;
+	margin-right: 10px;
+}
+
+.selectPeopleNum2{
+	height: 30px;
+	line-height: 30px;
+	margin-left:10px; 
+}
+
+.selectPeopleNum2 div{
+	float: left;
+	margin: 0 10px;
+}
+
+.seatTable{
+	margin: 30px auto;
+}
+
+.seatTable td .seat{
+	display:inline-block;
+	border: none;
+	width: 25px;
+	height: 25px;
+	background: #848484;
+	text-align: center;
+	color: #fff;
+	font-size: 11px;
+	line-height: 23px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	margin-bottom: 3px;
+}
+.seatTable td .seat:focus { outline:none; }
+
+.seatTable .rowNum{
+	margin-left: 30px;
+	width: 30px;
+	height: 300px;
+}
+
+.seatTable td .seatbg{
+	color: #000000;
+	border: none;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	font-size: 14px;
+	line-height: 23px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	margin-bottom: 3px;
+	display:inline-block;
+}
+
+.seatTable td .sweet{
+	border: 2px solid red;
+}
+
+.seatTable td .on{
+	background:black;
+}
+
+.seatTable td .over{
+	background:black;
+}
+
+.seatTable td .reserve{
+	display:inline-block;
+	background:url('../img/bg/bg_seat03.gif') no-repeat 50% 50% !important;
+	border:0 !important;
+	color:#b7b7b7 !important;
+/* 	pointer-events: none; */
+}
+
+.seatTable td .disabled{
+	display:inline-block;
+	background:url('../img/bg/bg_disabled.gif') no-repeat 50% 50% !important;
+	border:0 !important;
+	color: rgba(0, 0, 0, 0);
+	pointer-events: none;
+}
+
+
+.loginField {
+	border-left-style: none;
+	border-right-style: none;
+	width: 1200px;
+	margin: 0px auto 120px;
+	text-align: left;
+}
+
+
+.seatTable2{
+	margin:10px; auto;
+	width: 1200px;
+}
+
+
+.seatTable2 input{
+	border: none;
+	width: 250px;
+	background-color: #ffffff;
+}
+
+.seatTable2 input:focus { outline:none; }
+
+.seatTable2 .tdLine{
+	border-left:2px solid #7b7b7b;
+	border-right:2px solid #7b7b7b;
+}
+
+.innerTable{
+
+	margin-left: 30px;
+}
+.innerTable td{
+	font-size:14px;
+}
+.innerTable th span{
+	margin-left: 10px;
+}
+
+.innerTable img{
+	width:65px;
+	height:94px;
+	margin: 10px;
+}
+.innerTable .tdSpan{
+	width:75px;
+}
+
+.innerTable2{
+	margin-left: 30px;
+}
+
+.innerTable2 td{
+	padding: 5px;
+	font-size:14px;
+}
+
+.innerTable3{
+	margin-left: 30px;
+}
+
+.innerTable3 td{
+	padding: 8px 0px;
+	font-size:14px;
+}
+
+.payButton{
+	margin:20px;
+	width:120px;
+	height:40px;
+	background-color:#d7282d;
+	color:#fff;
+	border:none;
+	float: right;
+}
+
+.prevButton{
+	margin:20px;
+	width:120px;
+	height:40px;
+	background-color:#000000;
+	color:#fff;
+	border:none;
+}
+
+.SeatTitle{
+	font-size:16px;
+	font-weight: bold;
+}
+
+.totalPrice1{
+	text-align: right;
+}
+.totalPrice2{
+	text-align: right;
+	font-size:20px;
+	font-weight: bold;
+}
+
+.seatform{
+	margin: 0 auto;
+	height:550px;
+	padding-left:300px;
+}
+
+
+.seatform div{
+	float: left;
+}
+
+.seatRow{
+	margin :30px auto;
+}
+
+.seatRow td a{
+	display:inline-block;
+	border: none;
+	width: 25px;
+	height: 25px;
+	font-size:12px;
+	font-weight:bold;
+	text-align: center;
+	line-height: 23px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	margin-bottom: 4px;
+}
+
+.seatform-chd2{
+	margin-right:100px;
+}
+
+ .loginField .kpay label{
+	margin:20px;
+}
+
+.loginField .kpay{
+	margin:20px auto;
+}

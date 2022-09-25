@@ -1,0 +1,105 @@
+@CHARSET "UTF-8";
+
+fieldset {
+	width: 700px;
+	height: auto;
+	margin: 50px auto;
+	border-style: none;
+}
+
+legend {
+	text-align: center;
+	font-family: inherit;
+	font-size: 2em;
+	color: #240e04;
+}
+
+table {
+	border-collapse: collapse;
+	border-top: 2px solid #240e04;
+	margin: 50px auto;
+	width: 600px;
+	padding: 10px;
+}
+
+td {
+	height: 50px;
+}
+
+tr:NTH-CHILD(1)>td {
+	padding-top: 10px;
+}
+
+tr:NTH-CHILD(1)>td:NTH-CHILD(1), tr:NTH-CHILD(2)>td:NTH-CHILD(1),
+tr:NTH-CHILD(3)>td:NTH-CHILD(1), tr:NTH-CHILD(4)>td:NTH-CHILD(1),
+tr:NTH-CHILD(5)>td:NTH-CHILD(1), tr:NTH-CHILD(6)>td:NTH-CHILD(1), 
+tr:NTH-CHILD(7)>td:NTH-CHILD(1), tr:NTH-CHILD(8)>td:NTH-CHILD(1),
+tr:NTH-CHILD(9)>td:NTH-CHILD(1), tr:NTH-CHILD(10)>td:NTH-CHILD(1) {
+	width: 29%;
+	padding-left: 20px;
+}
+
+tr:NTH-CHILD(1)>td:NTH-CHILD(2), tr:NTH-CHILD(2)>td:NTH-CHILD(2),
+tr:NTH-CHILD(3)>td:NTH-CHILD(2), tr:NTH-CHILD(4)>td:NTH-CHILD(2),
+tr:NTH-CHILD(5)>td:NTH-CHILD(2), tr:NTH-CHILD(6)>td:NTH-CHILD(2), 
+tr:NTH-CHILD(7)>td:NTH-CHILD(2), tr:NTH-CHILD(8)>td:NTH-CHILD(2) {
+	text-align: right;
+	padding-right: 20px;
+}
+
+tr:NTH-CHILD(9)>td:NTH-CHILD(2), tr:NTH-CHILD(10)>td:NTH-CHILD(2) {
+	padding-left: 230px;
+}
+
+tr:NTH-CHILD(11) {
+	border-top: 2px solid #240e04;
+	margin-top: 10px;
+}
+
+tr:NTH-CHILD(11)>td {
+	height: 70px;
+	text-align: center;
+}
+
+input[type=text], input[type=password], input[type=email] {
+	width: 240px;
+	height: auto;
+	line-height: normal;
+	padding: .8em .5em;
+	font-family: inherit;
+	outline-style: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: 1px solid #240e04;
+	color: #240e04;
+	font-size: 14px;
+}
+
+input[type=submit], #main {
+	width: 130px;
+	height: 40px;
+	outline-style: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: 1px solid #d7282d;
+	/* border-radius: 2px; */
+	background-color: #d7282d;
+	font-family: inherit;
+	font-size: 17px;
+	color: #ffffff;
+	letter-spacing: 2px;
+}
+
+input[type=button] {
+	outline-style: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: 1px solid #1c1c1c;
+	background-color: #ffffff;
+	color: #1c1c1c;
+	font-family: inherit;
+	padding: 3px;
+}

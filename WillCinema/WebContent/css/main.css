@@ -1,0 +1,222 @@
+@CHARSET "UTF-8";
+
+.grade_18 {float:left; margin-left:10px; background:url('../img/bg/bg_grade_18.png') } 
+.grade_15 {float:left; margin-left:10px; background:url('../img/bg/bg_grade_15.png')  }
+.grade_12 {float:left; margin-left:10px; background:url('../img/bg/bg_grade_12.png')  }
+.grade_all {float:left; margin-left:10px; background:url('../img/bg/bg_grade_all.png') } 
+
+[class^=grade_] {display:inline-block;overflow:hidden;vertical-align:middle;width:20px;height:20px;margin-right:5px;text-indent:-99999em;}
+
+
+
+.movie_list{
+	clear:both;
+	float: left;
+text-align: left;
+}
+
+.booking{
+	float: right;
+}
+.movie_list li {
+	line-height:40px;
+	font-size:13px;
+    height: 40px;
+width: 320px;
+}
+
+
+#center {
+	/* border: 1px solid olive; */
+	text-align: center;
+	position: relative;
+	width: 1450px;
+	height: 500px;
+	margin: 10px auto;
+	position: relative;
+}
+
+#list {
+	/* border: 1px solid navy; */
+	float: left;
+	width: 360px;
+	height: 550px;
+	margin: 1px 0 10px 80px;
+	position: absolute;
+	padding-bottom: 0;
+}
+
+#goBook {
+	clear: both;
+	width: 100%;
+	height: 34px;
+	/* border: 1px solid lime; */
+	background-color: #d7282d;
+	padding-top: 17px;
+}
+
+#goBook>a {
+	color: #ffffff;
+	letter-spacing: 1px;
+}
+
+.entry {
+	box-sizing: border-box;
+	width: 360px;
+	height: 160px;
+	background-image: url("../img/main/h2_boxoffice.png");
+	background-color: #1c1c1c;
+	background-repeat: no-repeat;
+	background-position: 80px;
+}
+
+.entry>ul {
+	/* border: 1px solid yellow; */
+	height: 25px;
+	padding-top: 7px;
+	background-color: #1c1c1c;
+	color: #ffffff;
+}
+
+.ratingLink {
+	text-shadow: 1px 1px 2px #666666;
+	color: white;
+	padding: 5px 10px;
+	text-align: center right;
+}
+
+
+
+
+.contents {width: 890px; height: 550px;  margin: 0 auto;}
+	
+	/* banner */
+.banner {position: relative; width: 890px; height: 550px;  margin:0 auto; padding:0; overflow: hidden;}
+.banner ul {position: absolute; margin: 0px; padding:0; list-style: none; }
+.banner ul li {float: left; width: 890px; height: 550px; margin:0; padding:0;}
+
+
+
+#image {
+	/* border: 1px solid tomato; */
+	float: right;
+	width: 890px;
+	height: 550px;
+	margin-right : 100px;
+	margin-top: 1px;
+	margin-bottom: 20px;
+}
+
+#event {
+	/* border: 1px solid blue; */
+	width: 1100px;
+	height: 500px;
+	clear: both;
+	margin: 50px auto 5px auto;
+	padding: 5px auto;
+	text-align: center;
+}
+
+#service {
+	border-top: 1px solid #e6e6e6;
+	border-bottom: 1px solid #e6e6e6;
+	width: 100%;
+	height: 200px;
+	clear: both;
+	margin: 20px auto 10px auto;
+	padding: 10px auto;
+	text-align: center;
+}
+
+#service>ul {
+	box-sizing: border-box;
+	margin: 15px auto;
+	padding: 10px 0 10px 35px;
+	width: 1100px;
+	height: 170px;
+}
+
+#service>ul>li {
+	float: left;
+	box-sizing: border-box;
+	width: 130px;
+	height: 130px;
+	margin: 10px 30px;
+	padding-top: 20px;
+	background-color: #1c1c1c;
+	color: #ffffff;
+}
+
+#service>ul>li>a {
+	color: #ffffff;
+}
+
+#service>ul>li:NTH-CHILD(1) {
+	margin-left: 55px;
+}
+
+#service>ul>li>i {
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+#notice {
+	/* border: 1px solid red; */
+	width: 60%;
+	height: 70px;
+	clear: both;
+	margin: 20px auto 10px auto;
+	padding: 10px auto;
+	text-align: center;
+}
+
+#goNotice {
+	margin: 5px;
+	text-aline: left;
+}
+
+.accordion {
+	margin: 5px;
+	outline-style: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: 1px solid #1c1c1c;
+	background-color: #ffffff;
+	color: #1c1c1c;
+	font-family: inherit;
+	padding: 3px 5px;
+}
+
+.faqbut {
+	margin: 2px;
+	outline-style: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: 1px solid #1c1c1c;
+	background-color: #1c1c1c;
+	color: #ffffff;
+	font-family: inherit;
+}
+
+#ns {
+	border: 1px solid #1c1c1c;
+	padding: 3px 10px;
+	font-size: 14px;
+}
+
+.eventlist{
+	float:left;
+	margin: 8px;
+	padding-left:20px;
+	list-style: none;	
+}
+
+
+#ad {
+	/* border: 1px solid red; */
+	width: 1100px;
+	margin: 15px auto 0 auto;
+	text-align: center;
+}

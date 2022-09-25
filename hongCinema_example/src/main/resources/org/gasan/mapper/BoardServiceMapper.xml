@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  <mapper namespace="org.gasan.mapper.BoardServiceMapper">
+  
+  <resultMap type="org.gasan.domain.BoardVO" id="board">
+<result column="boardNumber" property="boardNumber" javaType="String"/>
+<result column="category" property="category" javaType="String"/>
+<result column="title" property="title" javaType="String"/>
+<result column="writer" property="writer" javaType="String"/>
+<result column="writeDate" property="writeDate" javaType="String"/>
+<result column="updateDate" property="updateDate" javaType="String"/>
+<result column="contents" property="contents" javaType="String"/>
+<result column="hit" property="hit" javaType="String"/>
+<result column="userId" property="userId" javaType="String"/>
+</resultMap>
+  
+  <insert id="write">
+  insert into board values(
+	board_seq.nextval, #{category}, #{title}, #{writer}, sysdate, sysdate, #{contents}, 0)
+  </insert>
+  
+  <delete id="delete">
+  delete from board where boardNumber = #{boardNumber}
+  </delete>
+  
+  <update id="update">
+  update board set updateDate = sysdate, contents = #{contents} where boardNumber = #{boardNumber}
+  </update>
+  
+  <select id="read" resultType="org.gasan.domain.BoardVO">
+  <![CDATA[
+  select * from board where boardNumber = #{boardNumber}
+  ]]>
+  </select>
+  
+  <update id="hit">
+  update board set hit = #{hit} where boardNumber = #{boardNumber}
+  </update>
+  
+  <select id="getBoardList" resultType="org.gasan.domain.BoardVO">
+  <![CDATA[
+  select * from board order by writeDate desc
+  ]]>
+  </select>
+  
+  <select id="getReviewBoardList" resultType="org.gasan.domain.BoardVO">
+  <![CDATA[
+  select * from board where category = '영화 리뷰' order by writeDate desc 
+  ]]>
+  </select>
+  
+  <select id="getRecommandBoardList" resultType="org.gasan.domain.BoardVO">
+  <![CDATA[
+  select * from board where category = '영화 추천' order by writeDate desc 
+  ]]>
+  </select>
+  
+  <select id="getTalkBoardList" resultType="org.gasan.domain.BoardVO">
+  <![CDATA[
+  select * from board where category = '잡담' order by writeDate desc 
+  ]]>
+  </select>
+  
+  <select id="getBoardListByCategory" resultType="org.gasan.domain.BoardVO">
+  <![CDATA[
+  select * from board where category = #{category} order by writeDate desc
+  ]]>
+  </select>
+  
+  <select id="getBoardListByWriter" resultType="org.gasan.domain.BoardVO">
+  <![CDATA[
+  select * from board where writer = #{writer} order by writeDate desc
+  ]]>
+  </select>
+  
+  <select id="getBoardListByDate" resultType="org.gasan.domain.BoardVO">
+  <![CDATA[
+  select * from board where writeDate = #{writeDate} order by writeDate desc
+  ]]>
+  </select>
+  
+  </mapper>
